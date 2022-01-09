@@ -1,0 +1,6 @@
+button,.pointer{
+    cursor: pointer;
+}
+.cong{display: none; position: fixed; bottom: 200px; left: 467px; border: 2px solid ;box-shadow: 0 0 10px 5px; border-radius: 10px; z-index: 9;}
+.text{width: 400px;height: 200px; border-radius: 8px; padding: 10px;background-color:lightgrey; background-position: center; background-size: 500px;background-repeat: no-repeat;}
+#styles{text-align: center; font-size: 30px; color:goldenrod;}

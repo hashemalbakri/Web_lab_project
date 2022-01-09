@@ -1,0 +1,388 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Car Categories</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  h1{text-align: center; color:white;}
+  body{background-image: url(back4.jfif); background-repeat:no-repeat;background-size: 100%; background-position: center; background-attachment: fixed;}
+  #p1{text-align: center; color:black; font-size: larger;}
+  .w{color: white;}
+  table{background-color: yellow;}
+  th,td{background-color:rgba(0, 0, 0,1);}
+  .div1{background-color:darkred; text-align: center;color: white; font-size: larger; }
+  img{border-radius: 50px; box-shadow:0 0 10px 0px ;}
+  img:hover{transition: 0.5s;transform: scale(1.1); transition: 0.5s;}
+  ul{color: white; list-style-type: none;}
+  li{display: inline-block; padding: 10px; text-transform: uppercase;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-decoration: none; color: white;}
+  a{text-decoration: none; color: white;}
+  .b{background-color:rgba(255, 255, 0, 0.8);color: black;border-radius: 5px; padding: 10px; transition: 0.5s;}
+  .b:hover{letter-spacing: 5px; transition: 1s;}
+  .form-pop{display: none; position: fixed; bottom: 143px; right: 432px; border: 2px solid ;box-shadow: 0 0 10px 5px black; border-radius: 10px; z-index: 9;}
+  .form-container{width: 450px;height: 350px; border-radius: 8px; padding: 10px;background-color:lightgrey; background-position: center; background-size: 500px;background-repeat: no-repeat;}
+  </style>
+  </head>
+
+  <body>
+
+  <h1 style="background-color: darkred;">Car Categories Website</h1><br>
+  <ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Contact</a></li>
+  <li><a href="#">Price</a></li>
+  <li class="b">More Info</li>
+  </ul>
+  <p id="p1">This web site contains lists, pictures, and tables to identify the car categories, and for each category, simple details are mentioned and some pictures are attached to it.</p>
+  <div style="margin: 25px;">
+  <fieldset class="w" style="display: inline-block;">
+  <legend class="w">American Cars</legend>
+  <table style="width: 600px;">
+  <tr>
+  <th colspan="7" >The Two Most Famous American Car Companies</th>
+  </tr>
+  <tr >
+  <th colspan="2" >DODGE</th>
+  <th colspan="2" >CHRYSLER</th>
+  </tr>
+  <tr>
+  <td>Charger</td>
+  <td>Challenger</td>
+  <td>Chrysler C300</td>
+  <td>Chrysler C200</td>
+
+  </tr>
+  <tr>
+  <td>Ram</td>
+  <td>Caravan</td>
+  <td>Chrysler Grand Voyager</td>
+  <td>Chrysler 200 Convertible</td>
+  </tr>
+  </table>
+  </fieldset>
+
+  <fieldset class="w" style="display: inline-block;">
+  <legend class="w">Korean Cars</legend>
+  <table style="width: 600px;">
+  <tr>
+  <th colspan="6" >The Most Famous Korean Car Companies</th>
+  </tr>
+  <tr >
+  <th colspan="3" >HYUNDAI</th>
+  <th colspan="3" >KIA</th>
+  </tr>
+  <tr >
+  <td>Kona</td>
+  <td>Elantra</td>
+  <td>Sonata</td>
+  <td>Sportage</td>
+  <td>K5</td>
+  <td>Sorento</td>
+
+  </tr>
+  <tr>
+  <td >Tucsan</td>
+  <td>Veloster</td>
+  <td>Accent</td>
+  <td>Cerato</td>
+  <td>Picanto</td>
+  <td>Cadenza</td>
+  </tr>
+  </table>
+  </fieldset><br>
+
+  <fieldset class="w" style="display: inline-block;">
+  <legend class="w">Japanese Cars</legend>
+  <table style="width: 600px;">
+  <tr>
+  <th colspan="6" >The Most Famous Japanese Car Companies</th>
+  </tr>
+  <tr >
+  <th colspan="3" >Toyota</th>
+  <th colspan="3" >Nissan</th>
+  </tr>
+  <tr >
+  <td>Corolla</td>
+  <td>Camry</td>
+  <td>Avallon</td>
+  <td>Altima</td>
+  <td>Armada</td>
+  <td>Patrol</td>
+
+  </tr>
+  <tr>
+  <td >Land Cruiser</td>
+  <td>Hilux</td>
+  <td>Innova</td>
+  <td>Tiida</td>
+  <td>Sunny</td>
+  <td>Sentra</td>
+  </tr>
+  </table>
+  </fieldset>
+
+  <fieldset class="w" style="display: inline-block;">
+  <legend class="w">Chinese Cars</legend>
+  <table style="width: 600px;">
+  <tr>
+  <th colspan="6" >The Most Famous Chinese Car Companies</th>
+  </tr>
+  <tr >
+  <th colspan="3" >Cherey</th>
+  <th colspan="3" >Changan</th>
+  </tr>
+  <tr >
+  <td>Tiggo 8 pro</td>
+  <td>Arrioz 6</td>
+  <td>QQ</td>
+  <td>Sedans</td>
+  <td>Edo Plus</td>
+  <td>Alsvin</td>
+
+  </tr>
+  <tr>
+  <td >Micro Track</td>
+  <td>Tiggo 5</td>
+  <td>Envy</td>
+  <td>CS95</td>
+  <td>CS35 Plus</td>
+  <td>Little Truck</td>
+  </tr>
+  </table>
+  </fieldset></div><br>
+
+  <div class="div1">
+  <h3>All Vehicles</h3>
+  </div>
+  <div>
+  <select style="height: 30px; width: 300px; margin-left: 50px; color: white; background-color:darkred; border: solid 2px  white; border-radius: 5px;"><option disabled selected>Type Car</option>
+  <option>KIA</option>
+  <option>HYUNDAI</option>
+  <option>DODGE</option>
+  <option>CHRYSLER</option>
+  <option>CHERY</option>
+  <option>CHANGAN</option>
+  </select>
+
+  </div><br>
+  <div style="margin: 10px; margin-right: 30px;">
+  <div style="height: 320px;">
+  <div style=" float: left; margin-left: 42px;">
+  <img src="ram2.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black; border-radius: 50px; float: left; width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">DODGE RAM</p>
+  <p style="text-align: center; color: white;">34,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  <div style=" float: left;  margin-left: 42px;">
+  <img src="charger2.jfif" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">DODGE CHARGER</p>
+  <p style="text-align: center; color: white;">23,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+
+  <div style=" float: left; margin-left: 42px;">
+  <img src="challenger2.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">DODGE CHALLENGER</p>
+  <p style="text-align: center; color: white;">29,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  </div><br>
+  <div style="height: 320px;">
+  <div style=" float: left; margin-left: 42px;">
+  <img src="sportage1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black; border-radius: 50px; float: left; width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">KIA SPORTAGE</p>
+  <p style="text-align: center; color: white;">26,500$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  <div style=" float: left;  margin-left: 42px;">
+  <img src="k51.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">KIA K5</p>
+  <p style="text-align: center; color: white;">24,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+
+  <div style=" float: left; margin-left: 42px;">
+  <img src="cerato1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">KIA CERATO</p>
+  <p style="text-align: center; color: white;">23,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  </div><br>
+  <div style="height: 320px;">
+  <div style=" float: left; margin-left: 42px;">
+  <img src="c3001.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black; border-radius: 50px; float: left; width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">CHRYSLER C300</p>
+  <p style="text-align: center; color: white;">28,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  <div style=" float: left;  margin-left: 42px;">
+  <img src="c2001.jpeg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">CHRYSLER C200</p>
+  <p style="text-align: center; color: white;">22,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+
+  <div style=" float: left; margin-left: 42px;">
+  <img src="grand1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">CHRYSLER GRAND VOYAGER</p>
+  <p style="text-align: center; color: white;">20,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  </div><br>
+  <div style="height: 320px;">
+  <div style=" float: left; margin-left: 42px;">
+  <img src="elantra2.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black; border-radius: 50px; float: left; width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">HYUNDAI ELANTRA</p>
+  <p style="text-align: center; color: white;">18,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  <div style=" float: left;  margin-left: 42px;">
+  <img src="tucsan1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">HYUNDAI TUCSAN</p>
+  <p style="text-align: center; color: white;">25,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+
+  <div style=" float: left; margin-left: 42px;">
+  <img src="sonata1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">HYUNDAI SONATA</p>
+  <p style="text-align: center; color: white;">21,400$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  </div><br>      
+  <div style="height: 320px;">
+  <div style=" float: left; margin-left: 42px;">
+  <img src="altima1.png" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black; border-radius: 50px; float: left; width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">NISSAN ALTIMA</p>
+  <p style="text-align: center; color: white;">23,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  <div style=" float: left;  margin-left: 42px;">
+  <img src="sentra1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">NISSAN SENTRA</p>
+  <p style="text-align: center; color: white;">27,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+
+  <div style=" float: left; margin-left: 42px;">
+  <img src="patrol2.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">NISSAN PATROL</p>
+  <p style="text-align: center; color: white;">32,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  </div><br>
+  <div style="height: 320px;">
+  <div style=" float: left; margin-left: 42px;">
+  <img src="corolla1.png" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black; border-radius: 50px; float: left; width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">TOYOTA COROLLA</p>
+  <p style="text-align: center; color: white;">24,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  <div style=" float: left;  margin-left: 42px;">
+  <img src="camry1.jpeg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">TOYOTA CAMRY</p>
+  <p style="text-align: center; color: white;">29,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+
+  <div style=" float: left; margin-left: 42px;">
+  <img src="land1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">TOYOTA LAND CRUISER</p>
+  <p style="text-align: center; color: white;">34,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  </div><br>           
+  <div style="height: 320px;">
+  <div style=" float: left; margin-left: 42px;">
+  <img src="tiggo1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black; border-radius: 50px; float: left; width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">CHERY TIGGO 8 PRO</p>
+  <p style="text-align: center; color: white;">15,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  <div style=" float: left;  margin-left: 42px;">
+  <img src="arrioz1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">CHERY ARRIOZ 6</p>
+  <p style="text-align: center; color: white;">11,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+
+  <div style=" float: left; margin-left: 42px;">
+  <img src="envy1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">CHERY ENVY</p>
+  <p style="text-align: center; color: white;">9,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  </div><br>
+  <div style="height: 320px;">
+  <div style=" float: left; margin-left: 42px;">
+  <img src="sedans1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black; border-radius: 50px; float: left; width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">CHANGAN SEDANS</p>
+  <p style="text-align: center; color: white;">13,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  <div style=" float: left;  margin-left: 42px;">
+  <img src="cs951.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">CHANGAN CS95</p>
+  <p style="text-align: center; color: white;">16,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+
+  <div style=" float: left; margin-left: 42px;">
+  <img src="alsvin1.jpg" height="230px" width="385px"><br><div style="box-shadow: 0 0 10px 0 black;border-radius: 50px;float: left;width: 80%;height: 80px;">
+  <p style="color: white; font-size: larger; text-align: center;">CHANGAN ALSVIN</p>
+  <p style="text-align: center; color: white;">10,000$</p></div><button onclick="openform()" style="float:left; background-color: slategrey; color: white; font-weight:bold;font-size: 20px;
+  width: 20%; height:80px; border-radius: 30px;">Buy</button>
+  </div>
+  </div><br>                                                                                                                                                                                                                                                
+  </div>
+
+<div class="form-pop" id="myform">
+  <form class="form-container">
+    <div class="center">
+    <h2 style="text-align: center;">Vehicles Conversion Contact</h2>
+    <label for="n1">Buyer's Name:</label>
+    <input type="text" id="n1" placeholder="Your Name"><br>
+    Seller Name:<input type="text" id="n2" placeholder="Seller Name" value="Hashem Albakri" style="margin-left: 15px;"><br>
+    Amount Paid:<input type="number" class="amount" placeholder="Number" style="margin-left: 10px;"><br>
+    <div style="margin-top: 15px;">
+    Payment Method:<br>
+    <div style="margin-left: 115px;">
+    <label for="r1">Cash</label>
+    <input type="radio" id="r1" name="rad">
+    <label for="r2">Visa/PayPal</label>
+    <input type="radio" id="r2" name="rad">
+  </div></div><br>
+  <div>
+    Car Number:<input type="text" placeholder="Car Number" style="margin-left: 15px;"><br>
+    Car Letter:<select style="margin-left: 29px;">
+      <option>A</option>
+      <option>B</option>
+      <option>T</option>
+      <option>E</option>
+      <option>H</option>
+      <option>R</option>
+      <option>Z</option>
+    </select><br><div style="margin-top: 15px;">
+   <input type="checkbox" class="checkbox">I agree to the traffic directorate's terms<br>
+   <input onclick="buy()" type="button" value="Buy" class="pointer" style="margin-left: 20px; background-color: green; height: 30px; width: 80px;border-radius: 10px;font-weight: bold;"><input onclick="closeform()" type="button" value="Cancel" style="border-radius: 10px; background-color: red;font-weight: bold; margin-left: 20px; margin-top: 20px;height: 30px;width: 80px; ">
+  </div></div>
+  </div>
+  </form>
+</div>
+  <div class="cong">
+     <div class="text">
+        <h1 id="styles"></h1>
+        <button onclick="exit1()" style="background-color:red; font-weight: bold; font-size:15px; border-radius: 5px;height: 30px; width: 70px; ">Close</button>
+      </div>
+    </div>
+  <script src="index.js"></script>
+  <script>
+  function openform(){
+    document.getElementById("myform").style.display="block";
+  }
+ function closeform(){
+   document.getElementById("myform").style.display="none";
+ }
+  </script>
+  </body>
+  </html>
